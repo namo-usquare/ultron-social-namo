@@ -35,7 +35,7 @@ import {
   MobilePlay,
 } from "../components/index";
 
-const index = () => {
+const Index = () => {
     // Add wallet connection state
     const { address: account, isConnected } = useAccount();
 // Modify the useEffect to check both wallet connection and token
@@ -477,4 +477,4 @@ useEffect(() => {
   );
 };
 
-export default index;
+export default Index;
