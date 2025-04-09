@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": " nodemon index.js",
+    "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production nodemon index.js",
+    "start": "next start",
     "lint": "next lint",
     "server": "node index.js",
     "prod": "NODE_ENV=production nodemon index.js"
